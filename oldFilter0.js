@@ -29,8 +29,8 @@ function setup() {
   text('Af Aske, Emilie, Viggo og Marcus', 20, offsetY+h+130)
   img.loadPixels()
   slider = createSlider(0,4,0,0);
-  slider.position(100, offsetY+h+10);
-  slider.style('width', '80px');
+  slider.position(10, offsetY+h+10);
+  slider.style('width', '280px');
 
   //text('VEJLEDNING:', 20, h+30);
   noStroke()
