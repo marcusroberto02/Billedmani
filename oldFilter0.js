@@ -28,7 +28,7 @@ function setup() {
   text('få billedet til at se ældre ud', 20, offsetY+h+110)
   text('Af Aske, Emilie, Viggo og Marcus', 20, offsetY+h+130)
   img.loadPixels()
-  slider = createSlider(0,4,0,0);
+  slider = createSlider(0,3,0,1);
   slider.position(10, offsetY+h+10);
   slider.style('width', '280px');
 
@@ -38,13 +38,13 @@ function setup() {
 
 function draw() {
   let val = slider.value()
-  if (val < 1){
+  if (val == 0){
     image(img,0,offsetY)
-  } else if (val >= 1 && val < 2){
+  } else if (val == 1){
     oldFilter()
-  } else if (val >= 2 && val < 3) {
+  } else if (val == 2) {
     brownEdges()
-  } else if (val >= 3) {
+  } else if (val == 3) {
     blackCracks()
   }
 
