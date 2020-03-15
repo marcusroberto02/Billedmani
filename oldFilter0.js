@@ -63,7 +63,8 @@ function draw() {
     text('Bevæg slideren mod højre for at', 20, offsetY+h+90)
     text('få billedet til at se ældre ud', 20, offsetY+h+110)
     text('Af Aske, Emilie, Viggo og Marcus', 20, offsetY+h+130)
-    input.position(20, offsetY+h+160);
+    text('Indsæt dit eget billede ved at trykke på knappen', 20, offsetY+h+150)
+    input.position(20, offsetY+h+170);
     slider.position(10, offsetY+h+10);
     count = 0;
     newImage = false
