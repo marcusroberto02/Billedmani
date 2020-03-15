@@ -27,7 +27,7 @@ function setup() {
   textSize(20)
   text('VEJLEDNING:', 20, offsetY+h+50)
   textSize(15)
-  text('Ryk musen over i venstre side af billedet', 20, offsetY+h+70)
+  text('Ryk slideren over i venstre side af billedet', 20, offsetY+h+70)
   text('Bevæg slideren mod højre for at', 20, offsetY+h+90)
   text('få billedet til at se ældre ud', 20, offsetY+h+110)
   text('Af Aske, Emilie, Viggo og Marcus', 20, offsetY+h+130)
