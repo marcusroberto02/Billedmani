@@ -31,6 +31,7 @@ function setup() {
   text('Bevæg slideren mod højre for at', 20, offsetY+h+90)
   text('få billedet til at se ældre ud', 20, offsetY+h+110)
   text('Af Aske, Emilie, Viggo og Marcus', 20, offsetY+h+130)
+  text('Indsæt dit eget billede ved at trykke på knappen', 20, offsetY+h+150)
   img.loadPixels()
   slider = createSlider(0,3,0,1);
   slider.position(10, offsetY+h+10);
